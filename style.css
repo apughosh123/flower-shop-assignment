@@ -1,0 +1,77 @@
+*{
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ffffff;
+}
+.top-area{
+    width: 100%;
+    background-color: #fceef1;
+}
+.top-area-child{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 1600px;
+}
+.top-content{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 6%;
+    padding-bottom: 0%;
+    padding-left: 6%;
+    padding-right: 6%;
+    flex-direction: column;
+}
+.top-heading{
+    font-size: 66px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.top-content>p{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.btn{
+    background-color: #e55473;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 490px;
+    border: none;
+    padding: 14px 18px;
+}
+.flower-content{
+    display: flex;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 0px;
+    padding-top: 5%;
+    margin: 0 auto;
+    width: 1550px;
+    justify-content: space-between;
+    
+}
+.flower-child{
+    align-items: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+.pink-flower{
+    padding: 20% 15% 0% 15%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: #f1dde7;
+}
+.flower-heading{
+    margin-top: 30px;
+}
+.flower-image{
+    margin-bottom: -4px;
+    width: 290px;
+    height: 370px;
+}
