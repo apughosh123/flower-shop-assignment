@@ -78,7 +78,7 @@ body{
 .support-area{
     width: 1300px;
     background-color: #f4f4f4;
-    padding-left: 65;
+    padding-left: 6%;
     padding-right: 6%;
     padding-bottom: 0px;
     margin: 0 auto;
@@ -101,5 +101,118 @@ body{
     width: 33%;
     padding-bottom: 5%;
     padding-top: 5%;
+}
+.call-to-action-area{
+    margin-top: 6%;
+    background-color: #fceef1;
+    width: 100%;
+}
+.ctr-child{
+    display: flex;
+    margin:auto;
+    width: 1600px;
+    align-items: center;
+    padding-bottom: 6%;
+}
+.ctr-content{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+    padding-top: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 0px;
+}
+.ctr-area-img{
+    width: 40%;
+}
+.ctr-content>p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.ctr-content>h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.gallery-area{
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.gallery-img{
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-heading{
+    font-size: 36px;
+    text-align: center;
+}
+.gallery-paragraph{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.signup-area{
+    height: 449px;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 4%;
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.signup-child{
+    width: 65%;
+    height: 100px;
+    margin: 0 auto;
+}
 
+.input-area{
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.input-box{
+    height: 50px;
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.cta-btn{
+    background-color: #e55473;
+    border: none;
+    padding: 14px 15px;
+    color: #ffffff;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #111010;
+}
+.footer-child{
+    height: 100px;
+    width: 40%;
+    margin: 0 auto;
+}
+.footer-content{
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
